@@ -1,0 +1,24 @@
+.conteint{
+    text-align: center;
+    margin-top: 20%;
+    color: aliceblue;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ocupa toda a altura da tela */
+    background: transparent;
+    margin-top: 70px;
+  }
+  
+  .image-container img {
+    max-width: 100%; /* Impede que a imagem ultrapasse o tamanho da tela */
+    max-height: 100%; /* Impede que a imagem ultrapasse a altura da tela */
+    background: transparent;
+  }
+  ion-fab-button{
+    --background: #ffb833; /* Cor de fundo */
+    --color: white
+  }
