@@ -1,0 +1,65 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="amarelo">Conversor de Moedas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+
+    <ion-row class="amarelo">
+      <ion-col>
+        <ion-item>
+          <ion-label  position="floating">Moeda de origem</ion-label>
+          <ion-select [(ngModel)]="fromCurrency">
+            <ion-select-option class="amarelo" *ngFor="let currency of objectKeys(currencies)" [value]="currency">
+              {{ currency }}
+            </ion-select-option>
+          </ion-select>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-label position="floating">Moeda de destino</ion-label>
+          <ion-select [(ngModel)]="toCurrency">
+            <ion-select-option *ngFor="let currency of objectKeys(currencies)" [value]="currency">
+              {{ currency }}
+            </ion-select-option>
+          </ion-select>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-label position="floating">Valor</ion-label>
+          <ion-input type="number" [(ngModel)]="amount"></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    
+    <ion-row>
+      <ion-col>
+        <ion-button expand="full" (click)="convert()">Converter</ion-button>
+      </ion-col>
+    </ion-row>
+
+    
+    <ion-row>
+      <ion-col>
+        <ion-card *ngIf="convertedValue">
+          <ion-card-content>
+            <h2>Resultado</h2>
+            <p>{{ amount }} {{ fromCurrency }} = {{ convertedValue | number:'1.2-2' }} {{ toCurrency }}</p>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
