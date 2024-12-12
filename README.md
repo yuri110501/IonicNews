@@ -26,10 +26,11 @@
 
 ## Instalação
 
-1. Clone o repositório:
+1. Instalações das dependências:
    ```sh
    npm install
-iniciar o projeto:
+## inicialização o projeto:
+
 1. Clone o repositório:
    ```sh
    cd IonicNews
