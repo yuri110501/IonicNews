@@ -28,17 +28,12 @@
 
 1. Clone o repositório:
    ```sh
-   git clone https://github.com/yuri110501/IonicNews.git
-   cd IonicNews
-Instale as dependências do projeto:
+   npm install
+iniciar o projeto:
 1. Clone o repositório:
    ```sh
-   git clone https://github.com/yuri110501/IonicNews.git
    cd IonicNews
-Instale as dependências do projeto:
-'''sh
-npm install
-
+   npm  start / ionic serve
 Configuração
 
 Configurar a API de Taxas de Câmbio: Obtenha uma chave de API do serviço de taxas de câmbio que você está utilizando (por exemplo, ExchangeRate-API, Open Exchange Rates, etc.).
