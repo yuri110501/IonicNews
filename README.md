@@ -19,6 +19,13 @@
 - Interface amigável e responsiva.
 - Suporte a múltiplas moedas.
 
+## Funcionalidades
+
+- Conversão de moedas com taxas de câmbio atualizadas.
+- Seleção de moedas de origem e destino.
+- Interface amigável e responsiva.
+- Suporte a múltiplas moedas.
+
 ##Gráficos de Gantt
 
 ![Captura de tela 2024-12-12 134340](https://github.com/user-attachments/assets/157669ff-dc55-40a2-abbb-3fa42be822b7)
