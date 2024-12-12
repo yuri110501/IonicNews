@@ -23,6 +23,10 @@
 
 ![Captura de tela 2024-12-12 134340](https://github.com/user-attachments/assets/157669ff-dc55-40a2-abbb-3fa42be822b7)
 
+## FLUXOGRAMA
+
+![Captura de tela 2024-12-12 145645](https://github.com/user-attachments/assets/364b8b26-df73-4791-8cc7-a1233b67bc6c)
+
 
 ## Pré-requisitos
 
