@@ -32,9 +32,11 @@
    cd IonicNews
 Instale as dependências do projeto:
 
-sh
+'''sh
 npm install
+
 Configuração
+
 Configurar a API de Taxas de Câmbio: Obtenha uma chave de API do serviço de taxas de câmbio que você está utilizando (por exemplo, ExchangeRate-API, Open Exchange Rates, etc.).
 
 Configurar o Arquivo de Ambiente: Crie um arquivo src/environments/environment.ts com a configuração da sua chave de API:
